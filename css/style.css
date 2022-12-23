@@ -1,0 +1,479 @@
+/* reset */
+
+*{
+        box-sizing: border-box;
+}
+
+body{
+        font-family: 'Poppins', sans-serif;          
+}
+
+
+ul{     padding: 0;
+        margin: 0;
+        list-style: none;
+}
+
+
+a{      color: #fff;
+        text-decoration: none;
+}
+
+p{
+        margin: 0;
+}     
+
+
+h1{
+       margin: 0;
+}
+
+button{
+        padding: 0;
+        border: 0;
+}
+/* animation */
+
+
+a:hover{
+        color: yellow;
+
+}
+
+@keyframes anim-1 {
+        
+        0%{
+                transform: scale(0.5);
+        }
+
+        50%{
+                transform: scale(1);
+        } 
+}
+
+
+.column-1:hover{
+        animation-name: anim-1;
+        animation-duration: 4s;
+        animation-direction: alternate;
+        
+}
+
+.column-2:hover{
+        animation-name: anim-1;
+        animation-duration: 4s;
+        animation-direction: alternate;
+        
+}
+
+.column-3:hover{
+        animation-name: anim-1;
+        animation-duration: 4s;
+        animation-direction: alternate;
+        
+}
+
+.column-4:hover{
+        animation-name: anim-1;
+        animation-duration: 4s;
+        animation-direction: alternate;
+        
+}
+
+/*     */
+
+.aperture-text{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #C0C0C0;
+}
+
+.aperture-title{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin: 0;
+}
+
+
+/* Header */
+
+
+.header{
+        width: 1440px;
+        margin: 0 auto;      
+}
+        
+
+.header-nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: black;    
+}
+
+.header-link{
+        padding: 30px 0px 29px 152px;
+}
+
+.header-list{
+        display: flex;
+        align-items: center;
+}
+.header-items{
+        padding-right: 40px;
+}
+
+.list-link{
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+}
+
+.header-button{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        background: #FFFFFF;
+        border-radius: 24px;
+        color: black;
+        padding: 9px 20px 11px 20px;
+        margin-right: 140px;
+}
+
+.header-main{
+        background-image: url("../images/IMAGE.png");
+        height: 716px;
+        width: 1440px;
+        padding-top: 446px;       
+}
+
+.header-title{
+        text-align: center;
+        margin: 0;
+}
+
+
+.header-main-title{
+        font-weight: 400;
+        font-size: 54px;
+        line-height: 59px;
+        text-align: center;
+        color: #fff;
+        margin: 0;
+}
+
+.header-description{
+        text-align: center;
+        margin: 0;
+        padding-top: 18px;
+}
+
+/* Main Content */
+
+.main-section{
+        background-color: black;
+        max-width: 1440px;
+        max-height: 1558px;
+        margin: 0 auto;
+}
+
+
+.section-title{
+        padding-top: 70px;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 42px;
+        text-align: center;
+        color: #FFFFFF;
+}
+
+.section-text{
+        font-size: 23px;
+        line-height: 30px;
+        text-align: center;
+        padding-top: 15px;
+}
+
+.column-block{ 
+        margin: 42px 136px 0px 136px;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 16px;
+}
+
+.column-title{
+        margin: 0;
+        padding: 421px 0 0 30px;
+}         
+
+.column-text{
+        padding-left: 30px;
+}
+
+.column-1{ 
+        background-image: url("../images/IMAGE\ \(1\).png");
+        width: 576px;
+        height: 600px;
+}  
+
+
+.column-2{
+        background-image: url("../images/IMAGE\ \(3\).png");
+        width: 576px;
+        height: 600px;
+}
+
+.column-3{
+        background-image: url("../images/IMAGE\ \(4\).png");
+        width: 576px;
+        height: 600px;
+        margin-top: 16px;
+}
+
+.column-4 {
+        background-image: url("../images/IMAGE\ \(5\).png");
+        width: 576px;
+        height: 600px;
+        margin-top: 16px;
+}
+
+
+.article-sunset{
+        max-width: 1440px;
+        margin: 0 auto;    
+}
+
+.article-photo{
+        background-image: url("../images/IMAGE\ \(6\).png");
+        width: 1440px;
+        height: 600px;    
+}
+
+.article-title{
+        margin: 0; 
+        padding: 260px 0px 0px 1080px;
+}
+
+.article-text{
+        padding: 10px 0px 0px 1080px;
+}
+
+
+.section-cage{
+        width: 1440px;
+        margin: 0 auto;
+}
+
+.block-cage{
+        display: flex;
+}
+
+.Gear-block{
+        width: 720px;
+        background-color: black;
+}
+
+
+.Cage-title{
+        margin: 0;
+        color: #C0C0C0;
+        padding: 173px 0px 0px 100px;
+}
+
+.Cage-title-2{
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 32px;
+        color: #FFFFFF;
+        margin: 0;
+        padding: 6px 0px 0px 100px;
+}
+
+.Cage-text{
+        color: #FFFFFF;
+        padding: 14px 100px 0px 100px;
+}
+
+
+.Gear-photo{
+        width: 720px;
+        height: 540px;
+}
+
+.article-leafs{
+        max-width: 1440px;
+        margin: 0 auto;  
+       
+}
+
+.Monstera-Leafs{
+        background-image: url("../images/IMAGE\ \(8\).png");
+        width: 1440px;
+        height: 600px;
+}
+
+.leafs-title{
+        padding: 260px 0px 0px 1080px;   
+}
+
+.leafs-text{
+        padding: 10px 87px 0px 1080px;
+}
+
+
+.main-logos{
+        max-width: 1440px;
+        height: 500px;
+        margin: 0 auto;
+        background-color: black;
+}
+
+.logos-title{
+        margin: 0;
+        padding-top: 113px;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 42px;
+        color: #FFFFFF;
+        text-align: center;
+}
+
+.logos-text{
+        padding-top: 15px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 30px;
+        color: #C0C0C0;
+        text-align: center;
+}
+
+
+.logos{
+        padding: 82px 182px 0px 182px;
+}
+
+
+.list-logos{
+        display: flex;
+        align-items: center;  
+}        
+
+.logo-items{
+        padding-left: 109px;
+}
+.logo-items:first-child{
+        padding: 0;
+}
+
+
+.Star-fall-in-the-Himalayas{
+        max-width: 1440px;
+        margin: 0 auto;
+}
+
+.star-fall-block{
+        background-image: url("../images/IMAGE\ \(9\).png");
+        width: 1440px;
+        height: 600px;
+}
+
+.star-fall-title{
+        padding: 250px 0px 0px 1080px;
+}
+
+.star-fall-text{
+        padding: 5px 0px 0px 1080px
+}
+
+
+.help-with{
+        max-width: 1440px;
+        margin: 0 auto;
+        background-color: black;
+        height: 440px;       
+}
+
+.title-help{
+        padding-top: 113px;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 42px;
+        color: #FFFFFF;
+        text-align: center;
+}
+
+.help-text{
+        padding-top: 15px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;
+        color: #C0C0C0;
+}
+
+
+.button-help{
+        padding: 10px;
+        border-radius: 14px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.4px;
+        margin: 22px 0px 0px 643px;
+}
+
+/* footer */
+
+
+.footer{
+        max-width: 1440px;
+        margin: 0 auto;
+        height: 652px;
+        background-color: black;
+        height: 480px;
+}
+
+.footer-logo{
+        padding: 100px 0 0 136px;
+}
+
+.footer-text{
+        padding: 20px 0px 0px 136px;
+}
+
+
+.footer-list{
+        padding-left: 846px;
+        transform: translateY(-75px);
+}
+
+
+.footer-list-2{
+        padding-left: 1083px;
+        transform: translateY(-217px);
+}
+
+.footer-title{
+        color: #C0C0C0;     
+}
+
+.footer-items{
+        padding-top: 10px;
+}
+
+
+.footer-social-icons{
+        display: flex;
+        padding-left: 1100px;
+        align-items: center;
+}
+
+.list-social-icons{
+        padding-left: 25px;
+}
+
